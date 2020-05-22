@@ -8,7 +8,6 @@ const Sentry = require('@sentry/node');
 
 Sentry.init({ dsn: 'https://8b01fbfa1ad4401eb6deed669715507e@o396786.ingest.sentry.io/5250628' });
 
-myUndefinedFunction();
 
 const s3 = new aws.S3({
    
